@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.clear{
+    clear: both;
+    height: 1px;
+}
+/*头 部*/
+.guid-head{
+    box-sizing: border-box;
+    text-align: center;
+}
+/*标题*/
+.guid-head-h {
+    font-size: 37px;
+    margin-top: 21px;
+    height: 93px;
+    line-height: 93px;
+}
+/*tap切换*/
+.guid-head span{
+    box-sizing: border-box;
+    display:inline-block;
+    height: 55px;
+    width: 165px;
+    line-height: 55px;
+    color:#a2a1a9;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+.guid-head span:first-of-type{
+    color:#fd5238;
+    border-bottom: 4px solid #fd5238;
+}
+/*背景颜色*/
+.guid-bgc{
+    width: 100%;
+    background-color: #f7f7f7;
+}
+.guid-bx{
+    padding-top: 20px;
+    width: 1032px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+}
+.guid-box img{
+    width: 222px;
+    height: 131px;
+}
+/*小盒子li*/
+.guid-box{
+    float: left;
+    margin: 10px 18px;
+    box-sizing: border-box;
+    border-bottom: 15px solid #000000;
+    border-image: url(../img/listbg.jpg) 30 0 round;
+    width: 222px;
+    height: 233px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.guid-box>div{
+    background-color: #fff;
+    height: 233px;
+    border-top: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+/*鼠标悬停动画*/
+.guid-box:hover img{
+    animation: guid-box .7s linear 0s infinite alternate;
+}
+@keyframes guid-box{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.4;
+    }
+}
+/*加载图片*/
+#lending{
+    margin: 50px;
+}
+
+.guid-text{
+    padding: 10px;
+}
+.guid-text p{
+
+}
+.guid-text p:first-of-type{
+    font-size: 12px;
+    height: 30px;
+    line-height: 15px;
+    color: #999;
+}
+.guid-text p:nth-child(2){
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    color: #999999;
+
+}
+.guid-text p:last-of-type{
+    margin-top: 15px;
+    text-align: right;
+    height: 12px;
+}
+.guid-text p:last-of-type span{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.guid-text p:last-of-type>span{
+    float: right;
+}
+.guid-text p:last-of-type>span>span{
+    text-indent: 14px;
+    padding-right: 3px;
+}
+.guid-text p:last-of-type>span>span:nth-child(1){
+
+    background: url("../img/xin.png") no-repeat;
+}
+.guid-text p:last-of-type>span>span:nth-child(2){
+
+    background: url("../img/xin.png") no-repeat;
+}
+/*点击加载更多*/
+.click{
+    margin: 50px;
+    color: #fd5238;
+    text-align: center;
+}
+.click>span{
+    display: inline-block;
+    text-indent: 20px;
+    height: 20px;
+    line-height: 20px;
+    background: url("../img/more.png")no-repeat 0  6px;
+}
+.gray{
+    text-indent: 20px;
+    height: 20px;
+    margin: 50px;
+    text-align: center;
+    color: #a8a8a8;
+    background: none;
+}

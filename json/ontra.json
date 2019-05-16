@@ -1,0 +1,50 @@
+{
+    "Ontario": [
+        {
+          "img_url":"../img/hot5.jpg"  ,
+          "text":"首发",
+          "title":"巴慕达 The Toaster 烤面包机",
+          "num_arr":["2032","20台"],
+          "apply":1392,
+          "dat":"查看剩余时间",
+          "info":{
+            "type":0,
+            "num":8
+          }
+        },
+        {
+          "img_url":"../img/hot9.jpg"  ,
+          "text":"体验师专项",
+          "title":"Osprey小鹰户外运动专业腰包",
+          "num_arr":["2032","20台"],
+          "apply":1392,
+          "dat":"剩余时间2天",
+          "info":{
+            "type":1
+          }
+        },
+        {
+          "img_url":"../img/hot11.jpg"  ,
+          "text":"首发",
+          "title":"Liquid 运动摄像眼镜",
+          "num_arr":["2032","20台"],
+          "apply":1392,
+          "dat":"查看剩余时间 ",
+          "info":{
+            "type":0,
+            "num":8
+          }
+        },
+        {
+          "img_url":"../img/hot12.jpg"  ,
+          "text":"首发",
+          "title":"巴慕达 The Toaster 烤面包机",
+          "num_arr":["2032","20台"],
+          "apply":1392,
+          "dat":"剩余时间2天",
+          "info":{
+            "type":0,
+            "num":2
+          }
+        }
+    ]}

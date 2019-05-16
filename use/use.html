@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>免费试用</title>
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/use.css">
+</head>
+
+<body>
+<!-- 导航部分 -->
+<nav class="nav">
+<div class="nav-center">
+    <div class="nav-logo"><img src="../img/logonew.png" alt=""></div>
+    <div class="nav-list">
+        <ul>
+            <li><a href="../use/index.html">首页</a></li>
+            <li><a href="../play/play.html">酷玩</a></li>
+            <li><a href="../guid/guid.html">导购</a></li>
+            <li><a href="../use/use.html" class="nav-list-on">试用</a></li>
+            <li><a href="../report/report.html">报告</a></li>
+        </ul>
+    </div>
+    <div class="nav-register">
+        <span class="nav-search"></span>
+        <span class="nav-post"><a href="../use/regist.html" class="nav-link">注册</a></span>
+    </div>
+</div>
+</nav>
+
+<!--头部-->
+<div class="use-head">
+    <h1 class="use-head-h">免费试用</h1>
+    <span id="VW">大众试用</span><span id="vip">体验师专享</span>
+    <p class="type"><span id="all">全部</span><span id="apple">申请中</span><span id="try">试用中</span><span id="over">已结束</span></p>
+</div>
+
+<!--内容部分-->
+<!--背景颜色-->
+<div class="use-bgc">
+    <!--版心-->
+    <ul class="use-bx" id="use-bx">
+        <!--小盒子-->
+        <!--<li class="use-box">-->
+            <!--<img src="../img/hot5.jpg" alt="">-->
+            <!--<span class="tys">体验师专享</span>-->
+            <!--<div class="use-text">-->
+                <!--<p>仅需将其与电脑连接，即可解决科技生活中遇到的种种痛点。</p>-->
+                <!--<p><span>2030</span><span>20台</span></p>-->
+                <!--<p><span>1651</span>申请</p>-->
+                <!--<p>报告数量:<span>3</span></p>-->
+            <!--</div>-->
+        <!--</li>-->
+    </ul>
+
+    <p class="click">
+        <span>向下拉加载更多</span>
+    </p>
+    <div class="clear"></div>
+</div>
+
+
+
+<!-- 底部链接部分 -->
+<footer class="footer" style="margin-top:0;">
+    <div class="footer-center">
+        <div class="footer-logo"></div>
+        <div class="footer-link-logo">
+            <div class="footer-logo-pic"><img src="../img/logoImg.jpg" alt=""></div>
+            <div class="footer-play">全球酷玩试用导购平台酷·新奇·好玩·品质</div>
+            <div class="footer-play">微信添加"JguoJguo"获取我们的服务。</div>
+
+        </div>
+        <div class="footer-link">
+            <ul class="footer-list">
+                <li class="footer-title-first">免费试用
+                    <ol class="footer-small-list">
+                        <li class="footer-play">试用流程</li>
+                        <li class="footer-play">如何提高成功率</li>
+                    </ol>
+                </li>
+                <li class="footer-title-list">友情链接
+                    <ol class="footer-small-list">
+                        <li class="footer-play"><span>智东西    </span><span>WEIBUSI</span></li>
+                        <li class="footer-play"><span>搜狐IT  </span><span> 腾讯科技</span></li>
+                        <li class="footer-play"><span>搜狐数码</span><span>  凤凰科技</span></li>
+                        <li class="footer-play"><span>凤凰数码   </span><span>   PConline</span></li>
+                        <li class="footer-play"><span>泡泡网  </span><span>   3W咖啡</span></li>
+                        <li class="footer-play"><span>ZUK社区   </span><span>   亿觅emie</span></li>
+                        <li class="footer-play"><span>极客公园 </span><span>  易迅易启玩</span></li>
+                        <li class="footer-play"><span>果库</span></li>
+
+                    </ol>
+                </li>
+                <li class="footer-title-list">购买攻略
+                    <ol class="footer-small-list">
+                        <li class="footer-play"><span class="footer-small">美亚海淘教程</span></li>
+                        <li class="footer-play"><span class="footer-small">日亚海淘教程 </span></li>
+                        <li class="footer-play"><span class="footer-small">海淘转运攻略 </span></li>
+                        <li class="footer-play"><span class="footer-small">kickstarter 众筹购买攻略  </span></li>
+                        <li class="footer-play"><span class="footer-small">indiegogo 众筹购买攻略 </span></li>
+                    </ol>
+
+                </li>
+                <li class="footer-title-list"><a href="../report/teamwork.html" style="color:#fff">厂商合作</a> 
+                    <ol class="footer-small-list">
+                        <li class="footer-play"><span class="footer-small">关于极果</span></li>
+                        <li class="footer-play"><span class="footer-small">联系我们</span></li>
+                        <li class="footer-play"><span class="footer-small">商务合作:BD@jiguo.com</span></li>
+                        <li class="footer-play"><span class="footer-small">CEO邮箱:CEO@jiguo.com</span></li>
+
+                    </ol>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-coapy"> &copy;2016 极果版权所有</div>
+    </div>
+
+</footer>
+<!-- 广告固定位 -->
+<div class="backtop"></div>
+</body>
+<script id="use-dot" type="text/x-dot-template">
+    {{~it.use:value:index}}
+    <li class="use-box">
+        <img src="{{= value.img_url}}" alt="">
+        {{? value.type1 == 0}}
+        <span>首发</span>
+        {{?? value.type1 == 1}}
+        <span class="tys">体验师专享</span>
+        {{?}}
+        <div class="use-text">
+            <p>{{= value.h}}</p>
+            {{? value.type == 0}}
+            <p><span>2030</span><span>20台</span></p>
+            <p><span>1651</span>申请</p>
+            <p>报告数量:8</p>
+
+            {{?? value.type == 1}}
+            <p><span class="green">2030</span><span class="green">20台</span></p>
+            <p><span>1651</span>申请</p>
+            <p class="green">查看试用名单</p>
+
+            {{?? value.type == 2}}
+            <p><span class="red">2030</span><span class="red">20台</span></p>
+            <p><span>1651</span>申请</p>
+            <p class="red">剩余时间2天</p>
+            {{?}}
+        </div>
+    </li>
+
+
+    {{~}}
+</script>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/doT.min.js"></script>
+<script src="../js/use.js"></script>
+<script src="../js/public.js"></script>
+
+</html>
